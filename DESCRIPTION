@@ -1,0 +1,28 @@
+Package: isotela
+Type: Package
+Title: Tissue-specific normalization and differential analysis for single-individual transcriptomics data
+Version: 0.1.0
+Author: Olivier M. F. Martin
+Maintainer: Olivier M. F. Martin <olivier.martin@crg.eu>
+Description: Normalizes and performs differential analysis of single-individual 
+  transcriptomics data while accounting for relative differences 
+  in tissue size between individuals.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/oliviermfmartin/isotela
+BugReports: https://github.com/oliviermfmartin/isotela/issues
+Imports: 
+    data.table,
+    scran,
+    dplyr,
+    pbapply,
+    MASS,
+    lbfgs,
+    matrixStats,
+    numDeriv,
+    stringr,
+    HelpersMG
+Suggests: 
+    devtools
+RoxygenNote: 7.1.2
